@@ -6,3 +6,4 @@ yaml = """
   -   repo:https://github.com/psf/black
       hooks:
       -   id: black
+"""
