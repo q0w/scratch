@@ -3,4 +3,5 @@ include = [
     "flake8.toml",
     "black.toml",
     "mypy.toml",
+    "pre-commit.toml",
 ]
