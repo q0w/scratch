@@ -1,0 +1,5 @@
+["setup.cfg".flake8]
+ban-relative-imports = true
+
+[nitpick.files.absent]
+".flake8" = "Use setup.cfg"

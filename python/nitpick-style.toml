@@ -1,0 +1,6 @@
+[nitpick.styles]
+include = [
+    "flake8.toml",
+    "black.toml",
+    "mypy.toml",
+]

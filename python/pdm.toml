@@ -1,0 +1,5 @@
+[nitpick.files.present]
+"pyproject.toml" = "Install pdm and run 'pdm init' to create it"
+
+["pyproject.toml".tool.pdm.dev-dependencies]
+pre-commit = "*"
