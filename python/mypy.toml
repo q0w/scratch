@@ -16,3 +16,10 @@ warn_no_return = true
 
 [nitpick.files.absent]
 "mypy.ini" = "Use setup.cfg"
+
+[[".pre-commit-config.yaml".repos]]
+yaml = """
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    hooks:
+      - id: mypy
+"""

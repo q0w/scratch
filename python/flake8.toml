@@ -3,3 +3,11 @@ ban-relative-imports = true
 
 [nitpick.files.absent]
 ".flake8" = "Use setup.cfg"
+
+[[".pre-commit-config.yaml".repos]]
+yaml = """
+  -   repo: https://github.com/PyCQA/flake8
+      hooks:
+      -   id: flake8
+          additional_dependencies: [flake8-tidy-imports]
+"""

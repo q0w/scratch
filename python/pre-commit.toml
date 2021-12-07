@@ -1,0 +1,22 @@
+[[".pre-commit-config.yaml".repos]]
+yaml = """
+  -   repo: https://github.com/pre-commit/pre-commit-hooks
+      rev: v4.0.1
+      hooks:
+      -   id: end-of-file-fixer
+      -   id: trailing-whitespace
+      -   id: name-tests-test
+  -   repo: https://github.com/asottile/reorder_python_imports
+      hooks:
+      -   id: reorder-python-imports
+  -   repo: https://github.com/asottile/pyupgrade
+      hooks:
+      -   id: pyupgrade
+  -   repo: https://github.com/asottile/add-trailing-comma
+      hooks:
+      -   id: add-trailing-comma
+"""
+
+
+[nitpick.files.present]
+".pre-commit-config.yaml" = "Create the file with the contents below, then run 'pre-commit install'"
