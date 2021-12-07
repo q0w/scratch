@@ -3,7 +3,7 @@ line-length = 79
 
 [[".pre-commit-config.yaml".repos]]
 yaml = """
-  -   repo:https://github.com/psf/black
+  -   repo: https://github.com/psf/black
       hooks:
       -   id: black
 """
